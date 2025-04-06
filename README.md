@@ -9,4 +9,5 @@ The position of a text line must be a multiple of 8 (due to the memory layout of
 Following resources and implementation are used to achieve the current result:
 
 https://github.com/WeActStudio/WeActStudio.EpaperModule/tree/master
+
 https://github.com/cbm80amiga/RREFont

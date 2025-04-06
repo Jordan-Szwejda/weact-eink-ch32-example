@@ -1,0 +1,10 @@
+It is example of support ch32v003 for WeAct 2.13-Black-White-Red eInk display.
+It uses RREFont library to print fonts on the display.
+Ch32V003 has very limited RAM so there is not possible to create any memory buffer for display memory
+and paint fonts there.
+Some memory optymization has been applied to render fonts on this chipset. Due to specific memory layout of this display
+it is necessary to store whole display block of dimensions 250x8.
+That's a simple approach and can be extended and polished to achieve more mature solution. 
+At this moment it is possible to render text lines on the display and specify colors of the chars (black or red).
+Position of a text line must by multiplication of 8 (due to memory layout of the display).
+
